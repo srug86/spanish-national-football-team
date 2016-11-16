@@ -1,0 +1,306 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Selección española de fútbol</title>
+
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="bootstrap.css"
+			  />
+
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="styles.css"
+			  />
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="squad.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="page-header">
+				<h1>Selección española de fútbol</h1>
+			</div>
+
+			<ul class="nav nav-pills nav-justified">
+				<li role="presentation"><a href="index.html">Home</a></li>
+				<li role="presentation"><a href="news.html">News</a></li>
+				<li role="presentation" class="active"><a href="#">Squad</a></li>
+				<li role="presentation"><a href="matches.html">Matches</a></li>
+				<li role="presentation"><a href="info.html">Info</a></li>
+			</ul>
+
+			<hr></hr>
+
+			<div class="panel panel-primary">
+				<div class="panel-heading"><h3 class="panel-title">Current squad</h3></div>
+				<div class="panel-body">
+					<p>The following players were called up for the friendly matches against England on 13 November and Belgium on 17 November 2015.</p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img id="bigImage" class="img-responsive center-block img-with-little-margins"></img>
+					</div>
+					<div class="col-md-9">
+						<table id="table-selectable" class="table">
+							<tbody>
+							<tr>
+								<th>#</th>
+								<th>Pos.</th>
+								<th>Player</th>
+								<th>Date of birth (age)</th>
+								<th>Caps</th>
+								<th>Goals</th>
+								<th>Club</th>
+							<tr>
+							<tr id="player1" class="row-selectable">
+								<td class="player-number">1</td>
+								<td class="player-position">GK</td>
+								<td>Iker Casillas</td>
+								<td class="player-date-of-birth">20 May 1981 (age 34)</td>
+								<td>165</td>
+								<td>0</td>
+								<td class="player-club">Porto (POR)</td>
+							</tr>
+							<tr id="player2" class="row-selectable">
+								<td class="player-number">12</td>
+								<td class="player-position">GK</td>
+								<td>David de Gea</td>
+								<td class="player-date-of-birth">7 November 1990 (age 25)</td>
+								<td>7</td>
+								<td>0</td>
+								<td class="player-club">Manchester United (ENG)</td>
+							</tr>
+							<tr id="player3" class="row-selectable">
+								<td class="player-number">23</td>
+								<td class="player-position">GK</td>
+								<td>Sergio Rico</td>
+								<td class="player-date-of-birth">1 September 1993 (age 22)</td>
+								<td>0</td>
+								<td>0</td>
+								<td class="player-club">Sevilla (ESP)</td>
+							</tr>
+							<tr id="player4" class="row-selectable">
+								<td class="player-number">2</td>
+								<td class="player-position">DF</td>
+								<td>César Azpilicueta</td>
+								<td class="player-date-of-birth">28 August 1989 (age 26)</td>
+								<td>13</td>
+								<td>0</td>
+								<td class="player-club">Chelsea (ENG)</td>
+							</tr>
+							<tr id="player5" class="row-selectable">
+								<td class="player-number">3</td>
+								<td class="player-position">DF</td>
+								<td>Gerard Piqué</td>
+								<td class="player-date-of-birth">2 February 1987 (age 28)</td>
+								<td>74</td>
+								<td>4</td>
+								<td class="player-club">Barcelona (ESP)</td>
+							</tr>
+							<tr id="player6" class="row-selectable">
+								<td class="player-number">4</td>
+								<td class="player-position">DF</td>
+								<td>Marc Bartra</td>
+								<td class="player-date-of-birth">15 January 1991 (age 24)</td>
+								<td>8</td>
+								<td>0</td>
+								<td class="player-club">Barcelona (ESP)</td>
+							</tr>
+							<tr id="player7" class="row-selectable">
+								<td class="player-number">15</td>
+								<td class="player-position">DF</td>
+								<td>Nacho</td>
+								<td class="player-date-of-birth">18 January 1990 (age 25)</td>
+								<td>2</td>
+								<td>0</td>
+								<td class="player-club">Real Madrid (ESP)</td>
+							</tr>
+							<tr id="player8" class="row-selectable">
+								<td class="player-number">16</td>
+								<td class="player-position">DF</td>
+								<td>Óscar de Marcos</td>
+								<td class="player-date-of-birth">14 April 1989 (age 26)</td>
+								<td>0</td>
+								<td>0</td>
+								<td class="player-club">Athletic Bilbao (ESP)</td>
+							</tr>
+							<tr id="player9" class="row-selectable">
+								<td class="player-number">17</td>
+								<td class="player-position">DF</td>
+								<td>Mikel San José</td>
+								<td class="player-date-of-birth">30 May 1989 (age 26)</td>
+								<td>4</td>
+								<td>0</td>
+								<td class="player-club">Athletic Bilbao (ESP)</td>
+							</tr>
+							<tr id="player10" class="row-selectable">
+								<td class="player-number">18</td>
+								<td class="player-position">DF</td>
+								<td>Jordi Alba</td>
+								<td class="player-date-of-birth">21 March 1989 (age 26)</td>
+								<td>40</td>
+								<td>6</td>
+								<td class="player-club">Barcelona (ESP)</td>
+							</tr>
+							<tr id="player11" class="row-selectable">
+								<td class="player-number">24</td>
+								<td class="player-position">DF</td>
+								<td>Mario Gaspar</td>
+								<td class="player-date-of-birth">24 November 1990 (age 25)</td>
+								<td>2</td>
+								<td>2</td>
+								<td class="player-club">Villarreal (ESP)</td>
+							</tr>
+							<tr id="player12" class="row-selectable">
+								<td class="player-number">5</td>
+								<td class="player-position">MF</td>
+								<td>Sergio Busquets</td>
+								<td class="player-date-of-birth">16 July 1988 (age 27)</td>
+								<td>83</td>
+								<td>2</td>
+								<td class="player-club">Barcelona (ESP)</td>
+							</tr>
+							<tr id="player13" class="row-selectable">
+								<td class="player-number">6</td>
+								<td class="player-position">MF</td>
+								<td>Andrés Iniesta</td>
+								<td class="player-date-of-birth">11 May 1984 (age 31)</td>
+								<td>107</td>
+								<td>13</td>
+								<td class="player-club">Barcelona (ESP)</td>
+							</tr>
+							<tr id="player14" class="row-selectable">
+								<td class="player-number">8</td>
+								<td class="player-position">MF</td>
+								<td>Koke</td>
+								<td class="player-date-of-birth">8 January 1992 (age 23)</td>
+								<td>20</td>
+								<td>0</td>
+								<td class="player-club">Atlético Madrid (ESP)</td>
+							</tr>
+							<tr id="player15" class="row-selectable">
+								<td class="player-number">10</td>
+								<td class="player-position">MF</td>
+								<td>Cesc Fàbregas</td>
+								<td class="player-date-of-birth">4 May 1987 (age 28)</td>
+								<td>102</td>
+								<td>14</td>
+								<td class="player-club">Chelsea (ENG)</td>
+							</tr>
+							<tr id="player16" class="row-selectable">
+								<td class="player-number">13</td>
+								<td class="player-position">MF</td>
+								<td>Juan Mata</td>
+								<td class="player-date-of-birth">28 April 1988 (age 27)</td>
+								<td>39</td>
+								<td>10</td>
+								<td class="player-club">Manchester United (ENG)</td>
+							</tr>
+							<tr id="player17" class="row-selectable">
+								<td class="player-number">14</td>
+								<td class="player-position">MF</td>
+								<td>Thiago Alcántara</td>
+								<td class="player-date-of-birth">11 April 1991 (age 24)</td>
+								<td>6</td>
+								<td>0</td>
+								<td class="player-club">Bayern Munich (GER)</td>
+							</tr>
+							<tr id="player18" class="row-selectable">
+								<td class="player-number">20</td>
+								<td class="player-position">MF</td>
+								<td>Santi Cazorla</td>
+								<td class="player-date-of-birth">13 December 1984 (age 31)</td>
+								<td>78</td>
+								<td>14</td>
+								<td class="player-club">Arsenal (ENG)</td>
+							</tr>
+							<tr id="player19" class="row-selectable">
+								<td class="player-number">7</td>
+								<td class="player-position">FW</td>
+								<td>Álvaro Morata</td>
+								<td class="player-date-of-birth">23 October 1992 (age 23)</td>
+								<td>6</td>
+								<td>1</td>
+								<td class="player-club">Juventus (ITA)</td>
+							</tr>
+							<tr id="player20" class="row-selectable">
+								<td class="player-number">9</td>
+								<td class="player-position">FW</td>
+								<td>Paco Alcácer</td>
+								<td class="player-date-of-birth">30 August 1993 (age 22)</td>
+								<td>11</td>
+								<td>6</td>
+								<td class="player-club">Valencia (ESP)</td>
+							</tr>
+							<tr id="player21" class="row-selectable">
+								<td class="player-number">11</td>
+								<td class="player-position">FW</td>
+								<td>Pedro</td>
+								<td class="player-date-of-birth">28 July 1987 (age 28)</td>
+								<td>55</td>
+								<td>16</td>
+								<td class="player-club">Chelsea (ENG)</td>
+							</tr>
+							<tr id="player22" class="row-selectable">
+								<td class="player-number">21</td>
+								<td class="player-position">FW</td>
+								<td>Nolito</td>
+								<td class="player-date-of-birth">15 October 1986 (age 29)</td>
+								<td>5</td>
+								<td>0</td>
+								<td class="player-club">Celta (ESP)</td>
+							</tr>
+							<tr id="player23" class="row-selectable">
+								<td class="player-number">19</td>
+								<td class="player-position">FW</td>
+								<td>Diego Costa</td>
+								<td class="player-date-of-birth">7 October 1988 (age 27)</td>
+								<td>10</td>
+								<td>1</td>
+								<td class="player-club">Chelsea (ENG)</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			// when you click on row, it is highlighted
+			$('#table-selectable').on('click', 'tbody tr', function(event) {
+				$(this).addClass('highlight').siblings().removeClass('highlight');
+			});
+
+			// when you click on a thumbnail
+			// it sets the src of the big image
+			// to be the same as the image
+			// you clicked on
+			$(".row-selectable").click(function() {
+				var playerId = $(this).attr("id");
+				var imageSource = "resources/" + playerId + ".jpg";
+				$("#bigImage").attr('src', imageSource);
+				var newCounter = parseInt(playerId.slice("player".length));
+				setCurrentCounter(newCounter);
+			});
+
+			// by default player1 is selected
+			$("#player1").click();
+
+			// when you click the big image 
+			// toggle pausing. Set paused to 
+			// not paused, i.e. if it is paused
+			// set it to not paused, if it is 
+			// not paused set it to paused
+			$("#bigImage").click(function(){
+				stopOrResumeSlides();
+			});
+		</script>
+	</body>
+</html>

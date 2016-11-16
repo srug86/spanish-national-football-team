@@ -1,0 +1,126 @@
+/* colors:
+ *	#b73333 => light red
+ *	#880000 => dark red
+ *	#eeeeee => light gray
+ */
+
+hr {
+	border-color: #b73333;
+}
+
+.page-header {
+	border-bottom: 1px solid #b73333;
+}
+
+.page-header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: serif;
+	color: #b73333;
+}
+
+.div-border {
+	border: 1px solid #b73333;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.img-with-margins {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-with-little-margins {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #b73333;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #880000;
+	text-decoration: underline;
+}
+
+dd {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 2em;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color: white;
+	background-color: #b73333;
+}
+
+.panel-primary {
+	border-color: #b73333;
+}
+
+.panel-primary > .panel-heading {
+	color: white;
+	background-color: #b73333;
+	border-color: #b73333;
+}
+
+.row-selectable:hover {
+	cursor: pointer;
+}
+
+.table tbody tr:nth-child(odd) td {
+	background-color: #eeeeee;
+}
+
+.table tbody tr.highlight td { 
+	background-color: #b73333;
+	color: white;
+}
+
+.player-number {
+	font-weight: bold;
+}
+
+.player-position {
+	font-family: serif;
+}
+
+.player-date-of-birth {
+	font-style: italic;
+}
+
+.player-club {
+	font-style: italic;
+}
+
+.match-competition {
+	font-style: italic;
+}
+
+.match-country {
+	font-family: serif;
+}
+
+.match-country-spain {
+	font-family: serif;
+	font-weight: bold;
+}
+
+.match-result {
+	font-weight: bold;
+	text-align: center;
+}
+
+.match-place {
+	font-style: italic;
+}
